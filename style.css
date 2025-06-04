@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #0D0714;
+}
+
+.wrapper {
+  border-radius: 20px;
+  background-color: #1D1825;
+  max-width: 581px;
+  height: auto;
+  padding: 50px 84px 55px 65px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.wrapper .newTask {
+  width: 100%;
+}
+.wrapper .newTask form {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  gap: 11px;
+}
+.wrapper .newTask form input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 1px solid #9E78CF;
+  border-radius: 10px;
+  padding: 11px 15px 10px;
+  font-size: 16px;
+  color: white;
+}
+.wrapper .newTask form button {
+  background-color: #9E78CF;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  cursor: pointer;
+}
+.wrapper .listTasks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.wrapper .listTasks h2 {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+}
+.wrapper .listTasks ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.wrapper .listTasks ul .task {
+  width: 100%;
+  background-color: #15101C;
+  padding: 22px 21px 23px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .listTasks ul .task p {
+  font-size: 16px;
+  color: #9E78CF;
+}
+.wrapper .listTasks ul .task div {
+  display: flex;
+  gap: 8px;
+}
+.wrapper .listTasks ul .task div button {
+  padding: 4px;
+  border: none;
+  background-color: transparent;
+}
+
+.listDoneTasks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.listDoneTasks h2 {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+}
+.listDoneTasks ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.listDoneTasks ul p {
+  font-size: 16px;
+  color: #78CFB0;
+  text-decoration: line-through;
+}/*# sourceMappingURL=style.css.map */
